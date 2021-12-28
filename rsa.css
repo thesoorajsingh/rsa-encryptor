@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(270deg, #fd00ff, #1100ff);
+    background-size: 400% 400%;
+    -webkit-animation: background 6s ease infinite;
+    -moz-animation: background 6s ease infinite;
+    animation: background 6s ease infinite;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 10px auto;
+}
+
+@-webkit-keyframes background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+input {
+    margin: 10px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid #000;
+}
